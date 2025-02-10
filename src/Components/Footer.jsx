@@ -28,7 +28,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="#services"
+            href="#myservices"
             className="relative  text-black dark:text-white after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#9024B6] after:transition-all after:duration-300 hover:after:w-full"
           >
             My services
@@ -36,7 +36,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="#projects"
+            href="#portfolio"
             className="relative  text-black dark:text-white after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#9024B6] after:transition-all after:duration-300 hover:after:w-full"
           >
             Portfolio
@@ -52,7 +52,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href=""
+            href="#contactme"
             className="relative  text-black dark:text-white after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#9024B6] after:transition-all after:duration-300 hover:after:w-full"
           >
             Contact me

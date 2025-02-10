@@ -35,13 +35,30 @@ const Testimonials = () => {
   ];
 
   return (
-    <div id="testimonials" className="lg:px-[96px] md:px-[64px] sm:px-4 flex flex-col items-center gap-[32px] py-[48px]">
+    <div
+      id="testimonials"
+      className="lg:px-[96px] md:px-[64px] sm:px-4 flex flex-col items-center gap-[32px] py-[48px]"
+    >
       {/* Section Header */}
       <div className="flex flex-col items-center gap-[16px]">
-        <p className="text-xl font-medium uppercase">Testimonials</p>
-        <h3 className="text-5xl font-medium text-[#9024B6]">
+        <motion.p
+          className="text-lg sm:text-xl font-medium uppercase"
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          Testimonials
+        </motion.p>
+        <motion.h3
+          className="text-5xl font-medium text-[#9024B6]"
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
           People Talk About Us
-        </h3>
+        </motion.h3>
       </div>
 
       {/* Scrollable Testimonials */}
